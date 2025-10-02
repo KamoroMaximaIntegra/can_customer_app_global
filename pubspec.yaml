@@ -1,0 +1,17 @@
+name: customer_app_global
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Tambahkan dependensi ke paket privat Anda
+  private_greeting_local:
+    hosted:
+      name: private_greeting_local
+      url: https://dart.cloudsmith.io/kamoromaximaintegra/flutter-package/ # Sesuaikan jika berbeda
+    version: ^1.0.2 # Gunakan versi paket Anda
+
+  cupertino_icons: ^1.0.2
